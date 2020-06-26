@@ -1,31 +1,62 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Tugas minggu ke-4</title>
+    <title>Tugas minggu ke-4</title>
+    <link rel="stylesheet" type="text/css" href="css-form.css">
 </head>
 <body>
-
-	<h2>Formulir Untuk tugas minggu ke-4</h2>
-	<form>
-		Nama : <input type="text" name="nama"></br>
-		Alamat : <textarea>...</textarea><br>
-		Jenis kelamin :<input type="radio" name="lk">Laki - laki<input type="radio" name="pr">Prempuan<br>
-		Agama : 
-		<select>
-			<option>Islam</option>
-			<option>Kristem</option>
-			<option>Buddha</option>
-			<option>Hindu</option>
-			<option>Khonghuchu</option>
-		</select><br>
-		Hobi :<br> 
-		<input type="checkbox" name="br">Berenang<br>
-		<input type="checkbox" name="ft">Fotographi<br>
-		<input type="checkbox" name="bc">Membaca<br>
-		<input type="text" name="lain" value="lainnya"><br>
-		<input type="submit" name="submit" value="Kirim">
-
-	</form>
-
+    <div id="utama">
+        <h2>Formulir Untuk tugas minggu ke-4</h2>
+        <div id="isi">
+            <form method="POST" action="validasi.php">
+                <table>
+                    <tr>
+                        <td>Nama</td>
+                        <td>:</td>
+                        <td><input type="text" name="nama" placeholder="Masukkan Nama..."></td>
+                    </tr>
+                    <tr>
+                        <td>Email</td>
+                        <td>:</td>
+                        <td><input type="text" name="email" placeholder="Masukkan Email..."></td>
+                    </tr>
+                    <tr>    
+                        <td>Alamat</td>
+                        <td>:</td>
+                        <td><textarea name="alamat" placeholder="Masukkan Alamat..."></textarea></td>
+                    </tr>
+                    <tr>
+                        <td>Jenis kelamin</td>
+                        <td>:</td>
+                        <td>
+                            <input type="radio" name="jenis_kelamin" value="laki">Laki - laki
+                            <input type="radio" name="jenis_kelamin" value="perempuan">Prempuan
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Agama : </td>
+                        <td>:</td>
+                        <td> 
+                            <select name="agama">
+                                <option value="islam">Islam</option>
+                                <option value="kristen">Kristem</option>
+                                <option value="buddha">Buddha</option>
+                                <option value="hindu">Hindu</option>
+                                <option value="khonghuchu">Khonghuchu</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Hobi</td>
+                        <td>:</td>
+                        <td><input type="text" name="hobi" placeholder="Masukkan Hobi..."></td>
+                    </tr>
+                    <tr>
+                        <td><input type="submit" name="submit"><input type="reset" name="reset"></td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+    </div>
 </body>
 </html>

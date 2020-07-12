@@ -9,7 +9,7 @@
     <ul>
         <li><a href="index.php">Home</a></li>
         <li><a href="daftar.php">Daftar</a></li>
-        <li><a href="biodata.php">Tentang</a></li>
+        <li><a href="tentang.html">Tentang</a></li>
     </ul>
 
     <h1>1700018106 - Brilian Anugra - Slot Jum'at 07.30</h1>

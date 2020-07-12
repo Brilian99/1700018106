@@ -1,0 +1,64 @@
+body{
+    background-color:darkseagreen
+}
+h1{
+    font-family: cursive;
+}
+
+ul {
+    list-style-type: none;
+    margin : 0;
+    padding: 0;
+    overflow: hidden;
+    background: cyan;
+}
+
+li{
+    float: left;
+}
+
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: fantasy;
+    font-size: 20px;
+}
+
+li a:hover{
+    background-color: teal;
+}
+.counter{
+    margin: 200px 600px auto;
+    height: 75px;
+    width: auto;
+    background-color: cyan;
+    box-shadow: 4px 4px 8px black;
+    border-radius: 8px;
+    text-align: center;
+    padding: 10px;
+    font-family: cursive;
+}
+
+.rekuitmen{
+    background-color: cyan;
+    border-radius: 10px;
+    height: auto;
+    width: 400px;
+    margin: 25px 500px auto;
+    padding: 20px;
+    font-family: cursive;
+}
+
+.tombol{
+    background: blue;
+    color: rgb(16, 255, 235);
+    text-decoration: none;
+    padding: 5px;
+    font-style: bold;
+    font-size: medium;
+    font-family: cursive;
+}
+

@@ -1,0 +1,15 @@
+
+ Nama : Muhammad Ali
+ Jenis Kelamin : Laki-laki
+ Email : brilian1700018106@webmail.uad.ac.id
+ Nomor WA/HP : 2323
+ Agaman : Islam
+ Bahasa Pemrograman :  | HTML | CSS | Phyton
+ Deskripsi diri : vsdfsdffafd
+ Nama : Brilian Anugra
+ Jenis Kelamin : Perempuan
+ Email : briliananugra999@gmail.com
+ Nomor WA/HP : 09090909
+ Agaman : Hindu
+ Bahasa Pemrograman :  | CSS | Javascript
+ Deskripsi diri : hghghghg

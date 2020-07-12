@@ -9,7 +9,7 @@
     <ul>
         <li><a href="index.php">Home</a></li>
         <li><a href="daftar.php">Order</a></li>
-        <li><a href="biodata.php">Tentang</a></li>
+        <li><a href="tentang.html">Tentang</a></li>
     </ul>
 
     <form action="" method="post">
